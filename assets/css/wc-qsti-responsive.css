@@ -1,0 +1,21 @@
+/* Estilos para que banners se adequem na tela do dispositivo*/
+@media screen and (max-width: 767px) {
+    #boxLight{
+        max-width: 80%  !important;
+        background-size: contain !important;
+    }
+    
+    #bannerEbit {
+        max-width: 58rem !important;
+        width: calc(100% - 4rem) !important;
+        text-align: center;
+    }
+    
+    #bannerEbit img {
+        width: auto !important;
+        height: auto !important;
+        max-width: 100% !important;
+        display: block;
+        margin: auto;
+    }   
+}
